@@ -45,7 +45,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
         //Bind the movie data into the VH
         holder.bind(movie);
     }
-
+    //hello
     @Override
     public int getItemCount() {
         return movies.size();
